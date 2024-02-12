@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+}
+
+.wrapper {
+  margin: 2rem 8rem;
+  display: grid;
+  gap: 1rem 8rem;
+  grid-template-columns: 1fr;
+  justify-content: center;
+}
+
+.card {
+  min-width: 28rem;
+  display: flex;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #C8B170;
+  border-radius: 2px;
+}
+
+.hello{
+  width:5rem;
+  margin-left:5rem;
+
+}
+.btn{
+    border-color: #C8B170;
+    border-width: 2px 2px 0px 2px ;
+    background-color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: bold;
+    width: 100%;
+    padding-top: 0.8rem;
+    padding-bottom:0.8rem;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+.brand {
+  text-align:center;
+  margin: 1rem 0rem;
+}
+
+.title {
+    text-align:center;
+    margin: 1rem 0rem;
+ }
+
+.detail{
+  text-align:center;
+  margin-bottom: 2rem;
+ }
+
+.line{
+  color:#C8B170;
+}
+
+
+@media screen and (min-width: 100px) {
+  .wrapper {
+    grid-template-columns: repeat(auto-fit, minmax(14rem, 16rem));
+    margin-bottom: 4rem;
+  }
+
+  .card {
+    flex-direction: none;
+    text-align: center;
+    min-width: 14rem;
+  }
+}
+

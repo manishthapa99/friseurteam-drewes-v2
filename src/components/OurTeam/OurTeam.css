@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+}
+
+.team_wrapper {
+  margin: 0rem 8rem;
+  display: grid;
+  gap: 1rem 8rem;
+  grid-template-columns: 1fr;
+  justify-content: center;
+}
+
+.card {
+    padding: 10px;
+    min-width: 28rem;
+    display: flex;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #C8B170;
+    border-radius: 20px;
+}
+
+.hello{
+  width:5rem;
+  margin-left:5rem;
+  
+}
+
+.brand{
+    font-size: 20px;
+}
+
+
+.btn{
+    border-color: #C8B170;
+    border-width: 2px 2px 0px 2px ;
+    background-color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: bold;
+    width: 100%;
+    padding-top: 0.8rem;
+    padding-bottom:0.8rem;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+.brand {
+  text-align:center;
+  margin: 0.3rem 0rem;
+}
+
+.title {
+    text-align:center;
+    margin: 0px 0px;
+ }
+
+.detail{
+  text-align:center;
+ }
+
+.line{
+  color:#C8B170;
+}
+
+.class__img{
+    border-radius: 20px;
+}
+
+/* @media screen and (min-width: 100px) {
+    .team_wrapper {
+      grid-template-columns: repeat(auto-fit, minmax(14rem, 16rem));
+    }
+  
+    .card {
+      flex-direction: column;
+      text-align: center;
+      min-width: 14rem;
+    }
+}
+  
+
+@media screen and (min-width: 1280px) and (max-width:1407px) {
+    .team_wrapper {
+        gap: 1rem 12rem;
+      grid-template-columns: repeat(auto-fit, minmax(14rem, 16rem));
+    }
+  
+    .card {
+      flex-direction: column;
+      text-align: center;
+      min-width: 14rem;
+    }
+}
+  
+
+@media screen and (min-width: 1408px) and (max-width:1670px) {
+    .team_wrapper {
+        gap: 1rem 21rem;
+      grid-template-columns: repeat(auto-fit, minmax(14rem, 16rem));
+    }
+  
+    .card {
+      flex-direction: column;
+      text-align: center;
+      min-width: 14rem;
+    }
+}
+  
+@media screen and (min-width: 600px) and (max-width:895px) {
+    .team_wrapper {
+        gap: 1rem 4rem;
+      grid-template-columns: repeat(auto-fit, minmax(14rem, 16rem));
+    }
+  
+    .card {
+      flex-direction: column;
+      text-align: center;
+      min-width: 14rem;
+    }
+} */
+
+@media screen and (min-width: 100px) {
+    .team_wrapper {
+      grid-template-columns: repeat(auto-fit, minmax(14rem, 16rem));
+    }
+  
+    .card {
+      flex-direction: column;
+      text-align: center;
+      min-width: 14rem;
+    }
+  }
+  
+  

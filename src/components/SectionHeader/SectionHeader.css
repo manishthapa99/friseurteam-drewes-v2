@@ -1,0 +1,17 @@
+.headerImage {
+    width: 100%;
+}
+@media screen and (max-width: 500px){
+    .headerImage {
+        object-fit: cover;
+        object-position: 100% 0;
+    }
+
+    #main-img{      
+        content:url("../../../public/assets/SectionHeaderMobile.jpg");
+      }  
+    
+      .main_image{
+          margin-top: -45px;
+      }
+}

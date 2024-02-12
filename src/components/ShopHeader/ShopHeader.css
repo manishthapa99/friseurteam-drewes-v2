@@ -1,0 +1,14 @@
+.shopImage {
+    width: 100%;
+}
+
+@media screen and (max-width: 500px){
+    .shopImage {
+        margin-top: 40px;
+        margin-bottom: 5px;
+    }
+    #shop-img{      
+        content:url("../../../public/assets/SectionHeader2shop.png");
+      } 
+
+}

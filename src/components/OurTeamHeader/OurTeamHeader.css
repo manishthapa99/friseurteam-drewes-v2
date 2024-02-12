@@ -1,0 +1,18 @@
+.teamImage {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+@media screen and (max-width: 500px){
+    .teamImage {
+        object-fit: cover;
+        object-position: 70% 0;
+    }
+
+    #team-img{      
+        content:url("../../../public/assets/OurTeamMobileView.png");
+      } 
+    
+      .team_image{
+          margin-top: -45px;
+      }
+}
